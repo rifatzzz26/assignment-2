@@ -21,3 +21,77 @@
     </style>
     <link rel="stylesheet" href="styles.css" />
 </head>
+<body class="font-base text-color">
+    <!-- header -->
+    <header class="flex items-center justify-between px-base-bd-pad pt-3.5 lg:px-lg-bd-pad">
+        <img class="w-16 lg:w-[136px]" src="./assets/logo.png" alt="Logo" />
+        <nav class="">
+            <ul class="flex items-center justify-between gap-12">
+                <li>
+                    <a href="#" class="hidden font-bold lg:block lg:text-base lg:leading-6">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="hidden text-subtitle lg:block lg:text-base lg:leading-6">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="hidden text-subtitle lg:block lg:text-base lg:leading-6">About us</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-between gap-2.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <span class="text-base leading-6"> Cart ($56) </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="pb-10">
+        <!-- banner -->
+        <section class="grid grid-cols-1 gap-7 pt-7 lg:grid-cols-2 lg:px-lg-bd-pad lg:pt-[7.5rem]">
+            <div class="order-2 px-base-bd-pad flex flex-col gap-3.5 lg:order-1 lg:justify-end lg:gap-3.5">
+                <h1 class="font-display font-bold text-2xl lg:text-[4rem]">
+                    ALWAYS <span class="text-brand">FRESH<br />FLOWERS</span>
+                </h1>
+                <p class="text-subtitle text-sm lg:text-[1.5rem]">
+                    Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop. From classic roses to exotic blooms, we offer a wide
+                    variety of fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+            <img class="order-1 w-full lg:order-2 lg:pt-24" src="./assets/hero-flower.png" alt="Banner image" />
+        </section>
+
+        <!-- our plants -->
+        <section class="px-base-bd-pad pb-10 lg:pt-[7.5rem] lg:px-lg-bd-pad lg:flex lg:flex-col lg:gap-12">
+            <div class="pt-16 flex flex-col gap-4 items-center">
+                <h2 class="font-display text-2xl font-bold lg:text-[3.125rem]">
+                    <span class="text-brand">Our</span>
+                    Plants
+                </h2>
+                <p class="text-center text-sm text-subtitle lg:text-[1.375rem]">
+                    Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.
+                    <br />
+                    From classic roses to exotic blooms, we offer a wide variety of
+                    fresh.
+                </p>
+            </div>
+            <!-- cards grid -->
+            <div class="grid grid-cols-2 gap-x-5 gap-y-[1.875rem] lg:grid-cols-4">
+                <!-- a card -->
+                <div class="flex flex-col items-center justify-between gap-[1.875rem]">
+                    <img class="w-full" src="./assets/sample-flower-image.png" alt="card image" />
+                    <div class="flex flex-col items-center">
+                        <p class="font-medium text-base leading-[150%]">Lily Blossom</p>
+                        <p class="font-bold leading-[150%]">20 USD</p>
+                    </div>
+                    <button class="bg-brand w-full py-[1.625rem] font-semibold text-base text-white">
+                        ADD TO CART
+                    </button>
+                </div>
